@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <main>
       <Image src={avt} alt="avatar"/>
-      <h1 className="name">HOÀNG DUNG</h1>
+      <h1 className="name">DUNG HOÀNG</h1>
       <h1 className="description"></h1>
       {data.map((info, index) => (
         <Contact info={info} key={index} />
